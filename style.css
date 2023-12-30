@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi,sans-serif';
+    box-sizing: border-box;
+}
+
+
+
+#navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+#nav-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: #4F4F4F;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24.8px;
+
+}
+
+.btnn {
+
+    padding: 15px, 36px;
+    background-color: white;
+    border: 2px solid #2f80ed;
+    border-radius: 8px;
+    color: #2F80ED;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    height: 47px;
+}
+
+#belownav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F80ED;
+    height: 37px;
+}
+
+.belownav {
+    font-family: 'ABeeZee' !important;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffff;
+}
+
+
+
+#middlezone {
+    width: 100%;
+    height: 783px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: url(./back/purple_arraow.e16eb7db.svg);
+    background-position: 85% 55%;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+
+
+
+.middll1 {
+
+    display: flex;
+    flex-direction: row;
+    font-family: 'ABeeZee';
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+}
+
+
+.middll2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'ABeeZee';
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    color: #2F80ED;
+    text-shadow: -1px -1px 0 #000;
+}
+
+.middll3 {
+    font-family: ?????;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+
+#columnnn {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    gap: 8px;
+
+}
+
+.logoo {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.divdiv {
+    font-family: 'ABeeZee';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.divdiv2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.footerrrr {
+    padding-top: 80px;
+}
+
+
+#herosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+#middlezone2 {
+    border-radius: 18px;
+    gap: 28px;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0px 25px 54px 0px #0000001F;
+
+}
+
+.firstcol2 {
+    width: 291px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first2 {
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+}
+
+.first3 {
+    color: #818D9D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.divin2 {
+    width: 100%;
+}
+
+.inpu {
+    width: 100%;
+    height: 50px;
+    overflow: none;
+    border: none;
+    justify-content: center;
+}
+
+.abs {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.btnnn {
+    font-family: 'ABeeZee';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+
+
+}
+
+.sed {
+    color: #818D9D;
+    font-family: ?????;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.sed2 {
+    color: #2F80ED;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    font-family: 'inter';
+
+}
+
+#lowhero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 864px;
+    background: #ECF8FF;
+
+}
+
+.low1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l1 {
+    font-family: 'ABeeZee';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #2F80ED;
+}
+
+
+.l2 {
+    font-family: 'ABeeZee';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #2F80ED;
+
+
+}
+
+
+#lowh {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 10px;
+
+}
+
+.firstlowh {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.firstse {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.begin {
+    font-family: 'ABeeZee';
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#begin {
+    width: 106px;
+    height: 31px;
+
+}
+
+
+#flexb {    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 50px;
+    font-family: 'ABeeZee';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
