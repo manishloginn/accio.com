@@ -285,7 +285,7 @@
     letter-spacing: 0.08em;
     text-align: center;
     background: -webkit-linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
-   
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
@@ -505,7 +505,7 @@
     letter-spacing: 0.08em;
     text-align: center;
     background: -webkit-linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
-   
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background: linear-gradient();
     padding-top: 50px;
