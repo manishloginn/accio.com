@@ -187,7 +187,6 @@
 }
 
 .first2 {
-    font-family: ABeeZee;
     font-size: 32px;
     font-style: italic;
     font-weight: 400;
@@ -273,8 +272,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: 250px;
-    padding-bottom: 50px; */
+   
 }
 
 .heroo {
