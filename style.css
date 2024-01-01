@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 
 
 #navi {
@@ -66,7 +71,7 @@
 
 
 #middlezone {
-    width: 100%;
+    width: 50%;
     height: 783px;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -76,11 +81,41 @@
     justify-content: space-evenly;
     padding: 20px;
     background: url(./back/purple_arraow.e16eb7db.svg);
-    background-position: 85% 55%;
+    background-position: 95% 55%;
     background-repeat: no-repeat;
     background-size: 7%;
 }
 
+#middlezone2 {
+    border-radius: 18px;
+    gap: 28px;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0px 25px 54px 0px #0000001F;
+
+}
+
+.bbbbb {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.crs {
+font-family: 'ABeeZee';
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #2B2F34;
+margin-left: 8px;
+
+}
 
 
 .middll1 {
@@ -160,23 +195,13 @@
 
 
 #herosection {
+    display: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-#middlezone2 {
-    border-radius: 18px;
-    gap: 28px;
-    height: 500px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    box-shadow: 0px 25px 54px 0px #0000001F;
-
-}
 
 .firstcol2 {
     width: 291px;
@@ -276,7 +301,6 @@
 }
 
 .heroo {
-
     font-family: 'ABeeZee';
     font-size: 20px;
     font-style: italic;
@@ -509,6 +533,7 @@
     -webkit-text-fill-color: transparent;
     background: linear-gradient();
     padding-top: 50px;
+    margin-bottom: -10px;
 
 }
 
@@ -520,6 +545,7 @@
     line-height: 63px;
     letter-spacing: -0.015em;
     text-align: center;
+    margin-bottom: -15px;
 }
 
 #headdd .three {
@@ -531,6 +557,7 @@
     letter-spacing: -0.015em;
     text-align: center;
     color: #2F80ED;
+    margin-bottom: -8px;
 }
 
 
@@ -600,8 +627,10 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    row-gap: 10px;
     column-gap: 10px;
     flex-wrap: wrap;
+    position: absolute;
 
 }
 
@@ -614,6 +643,7 @@
     justify-content: center;
     padding: 24px;
     gap: 15px;
+
     
 }
 
@@ -625,7 +655,7 @@
 }
 
 .headname {
-    color: #000000;
+color: #000000;
 font-family: 'ABeeZee';
 font-size: 22px;
 font-style: italic;
@@ -683,6 +713,8 @@ text-align: left;
     border: 1px solid #D7D7D7;
     display: flex;
     justify-content: center;
+    position: relative;
+    
 }
 
 .boxx2 {
@@ -722,6 +754,7 @@ text-align: left;
     justify-content: center;
     position: relative;
     
+    
 }
 
 .boxx4 {
@@ -729,7 +762,6 @@ text-align: left;
     width: 350px;
     height: 228px;
     gap: 20px;
-    top: 20px;
 }
 
 .box5 {
@@ -769,5 +801,72 @@ text-align: left;
     height: 180px;
     gap: 20px
 }
+
+
+@media only screen and (max-width: 1200px) {
+    #belownav {
+        display: none;
+    }
+
+    .naviiii {
+        display: none;
+    }
+
+    #herosection {
+        display: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+   
+
+    .col2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        flex-direction: column;
+        
+    }
+
+    #firseehero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .photooo {
+        display: flex;
+        justify-content: center;
+
+    }
+    .photooo img {
+        width: 500px;
+
+    }
+
+    #herosection2 {
+       
+        height: 1400px;
+    
+    }
+    #middlezone2 {
+        border-radius: 18px;
+        gap: 28px;
+        height: 500px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        box-shadow: 0px 25px 54px 0px #0000001F;
+    
+    }
+
+}
+
 
 
